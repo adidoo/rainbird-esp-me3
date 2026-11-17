@@ -1,0 +1,45 @@
+# Whitelist: only the code is tracked. Notes, captures, photos, drafts, logs, secrets and the garden plan
+# (rainbird-plan.json) stay out of the repository.
+/*
+!/.gitignore
+!/README.md
+!/README_FR.md
+!/LICENSE
+!/PROTOCOLE_ESP-ME3.md
+!/PROTOCOLE_ESP-ME3_FR.md
+!/CABLAGE_PROTOTYPE.md
+!/CABLAGE_PROTOTYPE_FR.md
+!/images/
+!/gen_vue_arrosage.py
+
+!/carte_ha/
+
+!/esphome/
+/esphome/*
+!/esphome/rainbird-me3.yaml
+!/esphome/rainbird-me3-entites.yaml
+!/esphome/gen_entites.py
+!/esphome/rb_zone.py
+!/esphome/rb_zone_cle.py
+!/esphome/rb_test_ecriture.py
+!/esphome/rb_api.py
+!/esphome/rb_relire.py
+!/esphome/rb_bascule.py
+!/esphome/.gitignore
+!/esphome/components/
+
+!/outils/
+/outils/*
+!/outils/rb_uart.py
+!/outils/rb_decode.py
+!/outils/rb_ecoute.py
+!/outils/rb_0c.py
+!/outils/rb_capture.sh
+!/outils/rb_fronts.c
+!/outils/test_transformee_T.py
+!/outils/schema_cablage.py
+
+# partout
+*.bak-*
+__pycache__/
+secrets.yaml
